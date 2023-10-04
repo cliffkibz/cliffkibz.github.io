@@ -1,0 +1,70 @@
+body {
+    margin:0;
+    background: saddlebrown;
+    color: rgb(223, 190, 167);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+.yujiro-pic{
+    border: 4px solid rgb(243, 199, 52);
+}
+.logo-img{
+    border-radius: 10%;
+    border-style: solid;
+    border:5px solid black;
+    margin-bottom: 1px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-edit{
+    background: lightgray;
+    color: black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px dotted black;
+    border-radius: 10%;
+    /*or use padding:20px; if all the pixels are the same */
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+img{
+    width: 50%;
+}
+.search-input{
+    width: 300px;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*I have replaced the element selectors with class selectors
+input{
+    width: 300px
+}
+div>img{ margin-bottom: 20px;
+    width: 30%;
+    height: 15%;
+}
+to center an image = or use flexbox technique
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+*/
